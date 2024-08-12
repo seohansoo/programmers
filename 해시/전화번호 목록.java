@@ -1,12 +1,5 @@
 import java.util.*;
 
-public class Main {
-    public static void main(String[] args) {
-        String[] phone_book = {"123", "119562442", "97674223", "1195524421", "1"};
-        System.out.println(solution(phone_book));
-    }
-}
-
 class Solution {
     public boolean solution(String[] phone_book) {
         boolean answer = true;
